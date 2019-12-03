@@ -1,6 +1,7 @@
 # 7D2D-Autosave
 
 HOW TO USE
+
 0. Install latest Python 3 version
 1. Don't even use if you're not comfortable having a script automatically delete things! Some computer / programming knowledge recommended, don't use if you have no idea what this script is even doing.
 2. change src_fold to the folder where the 7 Days to Die savegames are located on your computer while keeping the format of the path, i.e.:
