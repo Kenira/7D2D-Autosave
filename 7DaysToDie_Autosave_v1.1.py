@@ -12,10 +12,10 @@ import time
 
 # CONFIG
 
-autosave_interval_seconds = 15*60
-autosaves_max = 15
+autosave_interval_seconds = 15*60		# autosave interval in seconds
+autosaves_max = 15				# number of autosaves to keep. oldest ones will get deleted if you get over the limit
 
-tone_frequency = 500	# Set beep frequency in Hertz
+tone_frequency = 500		# Set beep frequency in Hertz
 duration = 500			# Set beep duration in ms
 
 bool_ask = False		# if enabled, will not delete anything automatically, but beep and ask everytime and show the path that will be deleted
@@ -23,7 +23,7 @@ bool_test = False		# debug option, ignore
 
 
 src_fold = os.path.join("C:\\", "Users", "Kenira", "AppData", "Roaming", "7DaysToDie")		# put in your own path here! script does NOT double check for you so triple check!
-dest_fold = os.path.join("E:\\", "bak", "7 Days To Die", "_Python")							# select a path to save the autosaves. make sure it's a folder with nothing else in it! don't just choose a path like C:\\, make a folder!
+dest_fold = os.path.join("E:\\", "bak", "7 Days To Die", "_Python")				# select a path to save the autosaves. make sure it's a folder with nothing else in it! don't just choose a path like C:\\, make a folder!
 
 
 # END OF CONFIG
